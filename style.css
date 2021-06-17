@@ -28,6 +28,9 @@ body {
   padding: 0 20px;
   margin: 0 auto;
 }
+.hero__container{
+  margin-top: 30px;
+}
 
 .navbar {
   display: flex;
@@ -241,18 +244,22 @@ body {
     padding: 2px 30px;
   }
   .hero__container {
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     margin-bottom: 40px;
   }
+  
 
   .explore__menu__lists {
     margin-top: 40px;
     display: flex;
     gap: 15px;
     padding: 0 30px;
+  }
+  .explore__menu__container{
+    margin-top: 60px;
   }
 
   #pizza__card {
@@ -290,7 +297,9 @@ body {
   .restaurant__container{
     display: flex;
     align-items: center;
+    margin-top: 60px;
   }
+ 
   .restaurant__text{
     width: 100%;
     font-size: 40px;
@@ -375,6 +384,10 @@ body {
     
   
   }
+  .hero__container{
+    margin-top: 40px;
+  }
+ 
   .footer .container{
     margin: 0;
     padding: 0;
