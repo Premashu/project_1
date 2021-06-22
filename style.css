@@ -106,6 +106,45 @@ body {
   padding: 15px;
 }
 
+/*video player */
+.video_footage_container {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.video__footage {
+  position: relative;
+}
+
+.video__footage::before {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  transform: translate(1rem, 1rem);
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.video_footage_text {
+  margin-top: 2rem;
+  color: #1d3557;
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: center;
+}
+
 /* Flexxxxxx */
 .restaurant__text {
   font-size: 30px;
